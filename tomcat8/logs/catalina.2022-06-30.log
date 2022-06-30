@@ -1,0 +1,1561 @@
+30-Jun-2022 09:31:05.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+30-Jun-2022 09:31:05.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+30-Jun-2022 09:31:05.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+30-Jun-2022 09:31:05.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Jun-2022 09:31:05.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-1011-aws
+30-Jun-2022 09:31:05.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jun-2022 09:31:05.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+30-Jun-2022 09:31:05.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-8u312-b07-0ubuntu1-b07
+30-Jun-2022 09:31:05.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+30-Jun-2022 09:31:05.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat8
+30-Jun-2022 09:31:05.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat8
+30-Jun-2022 09:31:05.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat8/conf/logging.properties
+30-Jun-2022 09:31:05.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jun-2022 09:31:05.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jun-2022 09:31:05.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jun-2022 09:31:05.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Jun-2022 09:31:05.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jun-2022 09:31:05.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat8
+30-Jun-2022 09:31:05.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat8
+30-Jun-2022 09:31:05.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat8/temp
+30-Jun-2022 09:31:05.105 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Jun-2022 09:31:05.278 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Jun-2022 09:31:05.331 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1253 ms
+30-Jun-2022 09:31:05.398 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jun-2022 09:31:05.398 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+30-Jun-2022 09:31:05.425 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/docs]
+30-Jun-2022 09:31:05.885 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/docs] has finished in [460] ms
+30-Jun-2022 09:31:05.889 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/examples]
+30-Jun-2022 09:31:06.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/examples] has finished in [446] ms
+30-Jun-2022 09:31:06.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/manager]
+30-Jun-2022 09:31:06.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/manager] has finished in [52] ms
+30-Jun-2022 09:31:06.394 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/host-manager]
+30-Jun-2022 09:31:06.432 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/host-manager] has finished in [37] ms
+30-Jun-2022 09:31:06.432 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/ROOT]
+30-Jun-2022 09:31:06.462 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/ROOT] has finished in [29] ms
+30-Jun-2022 09:31:06.467 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Jun-2022 09:31:06.508 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1173 ms
+30-Jun-2022 09:49:26.618 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+30-Jun-2022 09:49:26.649 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/manager]
+30-Jun-2022 09:49:26.696 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/manager] has finished in [47] ms
+30-Jun-2022 09:52:11.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+30-Jun-2022 09:52:11.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+30-Jun-2022 09:52:11.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+30-Jun-2022 09:52:11.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Jun-2022 09:52:11.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-1011-aws
+30-Jun-2022 09:52:11.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jun-2022 09:52:11.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+30-Jun-2022 09:52:11.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-8u312-b07-0ubuntu1-b07
+30-Jun-2022 09:52:11.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+30-Jun-2022 09:52:11.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat8
+30-Jun-2022 09:52:11.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat8
+30-Jun-2022 09:52:11.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat8/conf/logging.properties
+30-Jun-2022 09:52:11.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jun-2022 09:52:11.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jun-2022 09:52:11.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jun-2022 09:52:11.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Jun-2022 09:52:11.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jun-2022 09:52:11.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat8
+30-Jun-2022 09:52:11.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat8
+30-Jun-2022 09:52:11.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat8/temp
+30-Jun-2022 09:52:11.335 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Jun-2022 09:52:11.492 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 09:52:11.558 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1332 ms
+30-Jun-2022 09:52:11.634 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jun-2022 09:52:11.635 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+30-Jun-2022 09:52:11.665 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/docs]
+30-Jun-2022 09:52:12.152 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/docs] has finished in [486] ms
+30-Jun-2022 09:52:12.157 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/examples]
+30-Jun-2022 09:52:12.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/examples] has finished in [457] ms
+30-Jun-2022 09:52:12.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/manager]
+30-Jun-2022 09:52:12.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/manager] has finished in [56] ms
+30-Jun-2022 09:52:12.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/host-manager]
+30-Jun-2022 09:52:12.712 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/host-manager] has finished in [42] ms
+30-Jun-2022 09:52:12.713 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/ROOT]
+30-Jun-2022 09:52:12.743 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/ROOT] has finished in [30] ms
+30-Jun-2022 09:52:12.746 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 09:52:12.797 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1238 ms
+30-Jun-2022 09:52:12.798 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.net.ServerSocket.<init>(ServerSocket.java:252)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:446)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:783)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:729)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+30-Jun-2022 09:52:12.800 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 09:52:12.807 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jun-2022 09:52:12.862 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 09:52:12.869 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 09:54:24.205 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jun-2022 09:54:24.205 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Jun-2022 09:54:24.210 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jun-2022 09:54:24.252 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Jun-2022 09:54:24.265 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Jun-2022 09:54:31.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+30-Jun-2022 09:54:31.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+30-Jun-2022 09:54:31.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+30-Jun-2022 09:54:31.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Jun-2022 09:54:31.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-1011-aws
+30-Jun-2022 09:54:31.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jun-2022 09:54:31.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+30-Jun-2022 09:54:31.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-8u312-b07-0ubuntu1-b07
+30-Jun-2022 09:54:31.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+30-Jun-2022 09:54:31.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat8
+30-Jun-2022 09:54:31.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat8
+30-Jun-2022 09:54:31.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat8/conf/logging.properties
+30-Jun-2022 09:54:31.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jun-2022 09:54:31.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jun-2022 09:54:31.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jun-2022 09:54:31.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Jun-2022 09:54:31.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jun-2022 09:54:31.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat8
+30-Jun-2022 09:54:31.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat8
+30-Jun-2022 09:54:31.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat8/temp
+30-Jun-2022 09:54:31.763 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Jun-2022 09:54:31.928 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 09:54:31.983 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1218 ms
+30-Jun-2022 09:54:32.049 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jun-2022 09:54:32.050 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+30-Jun-2022 09:54:32.077 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/docs]
+30-Jun-2022 09:54:32.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/docs] has finished in [459] ms
+30-Jun-2022 09:54:32.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/examples]
+30-Jun-2022 09:54:32.993 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/examples] has finished in [456] ms
+30-Jun-2022 09:54:32.994 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/manager]
+30-Jun-2022 09:54:33.050 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/manager] has finished in [56] ms
+30-Jun-2022 09:54:33.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/host-manager]
+30-Jun-2022 09:54:33.091 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/host-manager] has finished in [37] ms
+30-Jun-2022 09:54:33.091 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/ROOT]
+30-Jun-2022 09:54:33.124 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/ROOT] has finished in [32] ms
+30-Jun-2022 09:54:33.130 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 09:54:33.173 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1187 ms
+30-Jun-2022 10:02:53.209 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/opt/tomcat8/conf/tomcat-users.xml]
+30-Jun-2022 10:02:53.218 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 61 column 2: XML document structures must start and end within the same entity.
+	org.xml.sax.SAXParseException; lineNumber: 61; columnNumber: 2; XML document structures must start and end within the same entity.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1473)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.endEntity(XMLDocumentFragmentScannerImpl.java:899)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.endEntity(XMLDocumentScannerImpl.java:559)
+		at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.endEntity(XMLEntityManager.java:1410)
+		at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1925)
+		at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.scanData(XMLEntityScanner.java:1412)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:802)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1034)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2982)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:453)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:704)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:138)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:308)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1156)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 10:02:53.220 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Error reloading memory user database [UserDatabase] from updated source [file:/opt/tomcat8/conf/tomcat-users.xml]
+	org.xml.sax.SAXParseException; lineNumber: 61; columnNumber: 2; XML document structures must start and end within the same entity.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:453)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:704)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:138)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:308)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1156)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 10:03:10.622 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jun-2022 10:03:10.622 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:03:10.631 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jun-2022 10:03:10.690 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:03:10.702 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:03:15.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+30-Jun-2022 10:03:15.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+30-Jun-2022 10:03:15.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+30-Jun-2022 10:03:15.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Jun-2022 10:03:15.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-1011-aws
+30-Jun-2022 10:03:15.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jun-2022 10:03:15.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+30-Jun-2022 10:03:15.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-8u312-b07-0ubuntu1-b07
+30-Jun-2022 10:03:15.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+30-Jun-2022 10:03:15.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat8
+30-Jun-2022 10:03:15.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat8
+30-Jun-2022 10:03:15.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat8/conf/logging.properties
+30-Jun-2022 10:03:15.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jun-2022 10:03:15.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jun-2022 10:03:15.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jun-2022 10:03:15.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Jun-2022 10:03:15.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jun-2022 10:03:15.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat8
+30-Jun-2022 10:03:15.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat8
+30-Jun-2022 10:03:15.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat8/temp
+30-Jun-2022 10:03:15.918 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Jun-2022 10:03:16.083 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:03:16.139 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1246 ms
+30-Jun-2022 10:03:16.206 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 61 column 2: XML document structures must start and end within the same entity.
+	org.xml.sax.SAXParseException; lineNumber: 61; columnNumber: 2; XML document structures must start and end within the same entity.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1473)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.endEntity(XMLDocumentFragmentScannerImpl.java:899)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.endEntity(XMLDocumentScannerImpl.java:559)
+		at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.endEntity(XMLEntityManager.java:1410)
+		at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1925)
+		at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.scanData(XMLEntityScanner.java:1412)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:802)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1034)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2982)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:453)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:332)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:846)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:157)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:112)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:87)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:787)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:695)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+30-Jun-2022 10:03:16.208 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 61; columnNumber: 2; XML document structures must start and end within the same entity.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:453)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:332)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:846)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:157)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:112)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:87)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:787)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:695)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+30-Jun-2022 10:03:16.209 SEVERE [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception processing Global JNDI Resources
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 61; columnNumber: 2; XML document structures must start and end within the same entity.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:865)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:157)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:112)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:87)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:787)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:695)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 61; columnNumber: 2; XML document structures must start and end within the same entity.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:453)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:332)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:846)
+		... 19 more
+30-Jun-2022 10:03:16.213 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jun-2022 10:03:16.213 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+30-Jun-2022 10:03:16.226 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 61 column 2: XML document structures must start and end within the same entity.
+	org.xml.sax.SAXParseException; lineNumber: 61; columnNumber: 2; XML document structures must start and end within the same entity.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1473)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.endEntity(XMLDocumentFragmentScannerImpl.java:899)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.endEntity(XMLDocumentScannerImpl.java:559)
+		at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.endEntity(XMLEntityManager.java:1410)
+		at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1925)
+		at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.scanData(XMLEntityScanner.java:1412)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:802)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1034)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2982)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:453)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:332)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:846)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:171)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:198)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:221)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:254)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:695)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+30-Jun-2022 10:03:16.227 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 61; columnNumber: 2; XML document structures must start and end within the same entity.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:453)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:332)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:846)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:171)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:198)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:221)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:254)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:695)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+30-Jun-2022 10:03:16.229 SEVERE [main] org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase Exception looking up UserDatabase under key [UserDatabase]
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 61; columnNumber: 2; XML document structures must start and end within the same entity.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:865)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:171)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:198)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:221)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:254)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:695)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 61; columnNumber: 2; XML document structures must start and end within the same entity.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:453)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:332)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:846)
+		... 21 more
+30-Jun-2022 10:03:16.231 SEVERE [main] org.apache.catalina.realm.CombinedRealm.startInternal Failed to start [org.apache.catalina.realm.UserDatabaseRealm] realm
+	org.apache.catalina.LifecycleException: No UserDatabase component found under key [UserDatabase]
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:223)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:254)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:695)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+30-Jun-2022 10:03:16.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/docs]
+30-Jun-2022 10:03:16.714 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/docs] has finished in [463] ms
+30-Jun-2022 10:03:16.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/examples]
+30-Jun-2022 10:03:17.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/examples] has finished in [442] ms
+30-Jun-2022 10:03:17.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/manager]
+30-Jun-2022 10:03:17.207 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/manager] has finished in [48] ms
+30-Jun-2022 10:03:17.209 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/host-manager]
+30-Jun-2022 10:03:17.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/host-manager] has finished in [33] ms
+30-Jun-2022 10:03:17.250 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/ROOT]
+30-Jun-2022 10:03:17.273 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/ROOT] has finished in [23] ms
+30-Jun-2022 10:03:17.279 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:03:17.315 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1173 ms
+30-Jun-2022 10:07:03.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+30-Jun-2022 10:07:03.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+30-Jun-2022 10:07:03.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+30-Jun-2022 10:07:03.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Jun-2022 10:07:03.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-1011-aws
+30-Jun-2022 10:07:03.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jun-2022 10:07:03.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+30-Jun-2022 10:07:03.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-8u312-b07-0ubuntu1-b07
+30-Jun-2022 10:07:03.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+30-Jun-2022 10:07:03.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat8
+30-Jun-2022 10:07:03.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat8
+30-Jun-2022 10:07:03.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat8/conf/logging.properties
+30-Jun-2022 10:07:03.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jun-2022 10:07:03.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jun-2022 10:07:03.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jun-2022 10:07:03.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Jun-2022 10:07:03.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jun-2022 10:07:03.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat8
+30-Jun-2022 10:07:03.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat8
+30-Jun-2022 10:07:03.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat8/temp
+30-Jun-2022 10:07:03.339 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Jun-2022 10:07:03.502 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:07:03.529 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-6060]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1115)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:461)
+		at sun.nio.ch.Net.bind(Net.java:453)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:224)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:200)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1234)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:230)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1112)
+		... 13 more
+30-Jun-2022 10:07:03.532 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1247 ms
+30-Jun-2022 10:07:03.612 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jun-2022 10:07:03.617 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+30-Jun-2022 10:07:03.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/docs]
+30-Jun-2022 10:07:04.124 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/docs] has finished in [482] ms
+30-Jun-2022 10:07:04.127 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/examples]
+30-Jun-2022 10:07:04.578 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/examples] has finished in [450] ms
+30-Jun-2022 10:07:04.578 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/manager]
+30-Jun-2022 10:07:04.642 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/manager] has finished in [64] ms
+30-Jun-2022 10:07:04.643 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/host-manager]
+30-Jun-2022 10:07:04.678 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/host-manager] has finished in [35] ms
+30-Jun-2022 10:07:04.681 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/ROOT]
+30-Jun-2022 10:07:04.709 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/ROOT] has finished in [28] ms
+30-Jun-2022 10:07:04.712 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1179 ms
+30-Jun-2022 10:07:04.714 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.net.ServerSocket.<init>(ServerSocket.java:252)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:446)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:783)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:729)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+30-Jun-2022 10:07:04.714 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:07:04.715 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jun-2022 10:07:04.764 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:07:04.764 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:07:09.324 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jun-2022 10:07:09.324 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:07:09.329 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jun-2022 10:07:09.389 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:07:09.391 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:07:18.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+30-Jun-2022 10:07:18.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+30-Jun-2022 10:07:18.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+30-Jun-2022 10:07:18.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Jun-2022 10:07:18.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-1011-aws
+30-Jun-2022 10:07:18.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jun-2022 10:07:18.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+30-Jun-2022 10:07:18.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-8u312-b07-0ubuntu1-b07
+30-Jun-2022 10:07:18.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+30-Jun-2022 10:07:18.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat8
+30-Jun-2022 10:07:18.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat8
+30-Jun-2022 10:07:18.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat8/conf/logging.properties
+30-Jun-2022 10:07:18.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jun-2022 10:07:18.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jun-2022 10:07:18.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jun-2022 10:07:18.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Jun-2022 10:07:18.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jun-2022 10:07:18.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat8
+30-Jun-2022 10:07:18.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat8
+30-Jun-2022 10:07:18.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat8/temp
+30-Jun-2022 10:07:18.202 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Jun-2022 10:07:18.361 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:07:18.412 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1219 ms
+30-Jun-2022 10:07:18.488 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jun-2022 10:07:18.488 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+30-Jun-2022 10:07:18.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/docs]
+30-Jun-2022 10:07:18.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/docs] has finished in [458] ms
+30-Jun-2022 10:07:18.980 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/examples]
+30-Jun-2022 10:07:19.436 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/examples] has finished in [456] ms
+30-Jun-2022 10:07:19.436 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/manager]
+30-Jun-2022 10:07:19.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/manager] has finished in [57] ms
+30-Jun-2022 10:07:19.494 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/host-manager]
+30-Jun-2022 10:07:19.532 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/host-manager] has finished in [38] ms
+30-Jun-2022 10:07:19.533 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/ROOT]
+30-Jun-2022 10:07:19.563 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/ROOT] has finished in [30] ms
+30-Jun-2022 10:07:19.567 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 10:07:19.609 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1190 ms
+30-Jun-2022 10:57:29.893 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat8/webapps/rupaycard.war]
+30-Jun-2022 10:57:31.037 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 10:57:31.067 INFO [localhost-startStop-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+30-Jun-2022 10:57:31.196 INFO [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Thu Jun 30 10:57:31 UTC 2022]; root of context hierarchy
+30-Jun-2022 10:57:31.240 INFO [localhost-startStop-2] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [camel-config.xml]
+30-Jun-2022 10:57:32.866 INFO [localhost-startStop-2] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4e4f6f92: defining beans [template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+30-Jun-2022 10:57:33.587 INFO [localhost-startStop-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 2520 ms
+30-Jun-2022 10:57:33.596 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat8/webapps/rupaycard.war] has finished in [3,704] ms
+30-Jun-2022 11:13:23.687 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat8/webapps/jenkins.war]
+30-Jun-2022 11:13:23.691 SEVERE [localhost-startStop-3] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context [/jenkins]
+	java.util.zip.ZipException: error in opening zip file
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:228)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:157)
+		at java.util.jar.JarFile.<init>(JarFile.java:171)
+		at java.util.jar.JarFile.<init>(JarFile.java:108)
+		at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+		at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+		at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+		at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+		at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+		at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:128)
+		at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:615)
+		at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:752)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:182)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:13:23.697 SEVERE [localhost-startStop-3] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.WarResourceSet@5190a08c]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:139)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:713)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4880)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5018)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: java.util.zip.ZipException: error in opening zip file
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:142)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		... 16 more
+	Caused by: java.util.zip.ZipException: error in opening zip file
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:228)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:157)
+		at java.util.jar.JarFile.<init>(JarFile.java:171)
+		at java.util.jar.JarFile.<init>(JarFile.java:135)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:213)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:198)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:139)
+		... 17 more
+30-Jun-2022 11:13:23.698 SEVERE [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [/opt/tomcat8/webapps/jenkins.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:757)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.WarResourceSet@5190a08c]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:139)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:713)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4880)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5018)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: java.util.zip.ZipException: error in opening zip file
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:142)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		... 16 more
+	Caused by: java.util.zip.ZipException: error in opening zip file
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:228)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:157)
+		at java.util.jar.JarFile.<init>(JarFile.java:171)
+		at java.util.jar.JarFile.<init>(JarFile.java:135)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:213)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:198)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:139)
+		... 17 more
+30-Jun-2022 11:13:23.699 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat8/webapps/jenkins.war] has finished in [12] ms
+30-Jun-2022 11:14:13.711 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jenkins]
+30-Jun-2022 11:14:13.716 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat8/webapps/jenkins.war]
+30-Jun-2022 11:14:20.038 INFO [localhost-startStop-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 11:14:20.045 SEVERE [localhost-startStop-4] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+30-Jun-2022 11:14:20.045 SEVERE [localhost-startStop-4] org.apache.catalina.core.StandardContext.startInternal Context [/jenkins] startup failed due to previous errors
+30-Jun-2022 11:14:20.059 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat8/webapps/jenkins.war] has finished in [6,344] ms
+30-Jun-2022 11:14:49.542 INFO [http-nio-6060-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 11:14:49.554 SEVERE [http-nio-6060-exec-4] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+30-Jun-2022 11:14:49.554 SEVERE [http-nio-6060-exec-4] org.apache.catalina.core.StandardContext.startInternal Context [/jenkins] startup failed due to previous errors
+30-Jun-2022 11:14:57.477 INFO [http-nio-6060-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 11:14:57.486 SEVERE [http-nio-6060-exec-12] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+30-Jun-2022 11:14:57.487 SEVERE [http-nio-6060-exec-12] org.apache.catalina.core.StandardContext.startInternal Context [/jenkins] startup failed due to previous errors
+30-Jun-2022 11:15:06.787 INFO [http-nio-6060-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 11:15:06.800 SEVERE [http-nio-6060-exec-3] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+30-Jun-2022 11:15:06.801 SEVERE [http-nio-6060-exec-3] org.apache.catalina.core.StandardContext.startInternal Context [/jenkins] startup failed due to previous errors
+30-Jun-2022 11:16:02.405 INFO [http-nio-6060-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 11:16:02.413 SEVERE [http-nio-6060-exec-13] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+30-Jun-2022 11:16:02.414 SEVERE [http-nio-6060-exec-13] org.apache.catalina.core.StandardContext.startInternal Context [/jenkins] startup failed due to previous errors
+30-Jun-2022 11:16:39.497 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jun-2022 11:16:39.497 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 11:16:39.503 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jun-2022 11:16:39.518 INFO [localhost-startStop-5] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Thu Jun 30 10:57:31 UTC 2022]; root of context hierarchy
+30-Jun-2022 11:16:39.543 INFO [localhost-startStop-5] org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4e4f6f92: defining beans [template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+30-Jun-2022 11:16:39.546 WARNING [localhost-startStop-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [rupaycard] appears to have started a thread named [Camel (camel-1) thread #0 - ShutdownTask] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+30-Jun-2022 11:16:39.586 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 11:16:39.597 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 11:16:45.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+30-Jun-2022 11:16:45.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+30-Jun-2022 11:16:45.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+30-Jun-2022 11:16:45.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Jun-2022 11:16:45.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-1011-aws
+30-Jun-2022 11:16:45.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jun-2022 11:16:45.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+30-Jun-2022 11:16:45.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-8u312-b07-0ubuntu1-b07
+30-Jun-2022 11:16:45.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+30-Jun-2022 11:16:45.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat8
+30-Jun-2022 11:16:45.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat8
+30-Jun-2022 11:16:45.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat8/conf/logging.properties
+30-Jun-2022 11:16:45.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jun-2022 11:16:45.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jun-2022 11:16:45.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jun-2022 11:16:45.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Jun-2022 11:16:45.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jun-2022 11:16:45.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat8
+30-Jun-2022 11:16:45.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat8
+30-Jun-2022 11:16:45.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat8/temp
+30-Jun-2022 11:16:45.254 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Jun-2022 11:16:45.407 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 11:16:45.459 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1257 ms
+30-Jun-2022 11:16:45.530 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jun-2022 11:16:45.530 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+30-Jun-2022 11:16:45.583 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat8/webapps/rupaycard.war]
+30-Jun-2022 11:16:47.160 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 11:16:47.205 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+30-Jun-2022 11:16:47.338 INFO [localhost-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Thu Jun 30 11:16:47 UTC 2022]; root of context hierarchy
+30-Jun-2022 11:16:47.418 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from class path resource [camel-config.xml]
+30-Jun-2022 11:16:48.906 INFO [localhost-startStop-1] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@69e9f5d9: defining beans [template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+30-Jun-2022 11:16:49.616 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 2411 ms
+30-Jun-2022 11:16:49.668 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat8/webapps/rupaycard.war] has finished in [4,084] ms
+30-Jun-2022 11:16:49.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat8/webapps/jenkins.war]
+30-Jun-2022 11:16:53.839 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 11:16:53.848 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+30-Jun-2022 11:16:53.849 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/jenkins] startup failed due to previous errors
+30-Jun-2022 11:16:53.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat8/webapps/jenkins.war] has finished in [4,194] ms
+30-Jun-2022 11:16:53.865 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/docs]
+30-Jun-2022 11:16:53.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/docs] has finished in [30] ms
+30-Jun-2022 11:16:53.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/examples]
+30-Jun-2022 11:16:54.184 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/examples] has finished in [287] ms
+30-Jun-2022 11:16:54.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/manager]
+30-Jun-2022 11:16:54.267 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/manager] has finished in [78] ms
+30-Jun-2022 11:16:54.269 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/host-manager]
+30-Jun-2022 11:16:54.305 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/host-manager] has finished in [36] ms
+30-Jun-2022 11:16:54.306 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/ROOT]
+30-Jun-2022 11:16:54.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/ROOT] has finished in [27] ms
+30-Jun-2022 11:16:54.346 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-6060"]
+30-Jun-2022 11:16:54.385 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8924 ms
+30-Jun-2022 11:16:58.394 INFO [http-nio-6060-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 11:16:58.402 SEVERE [http-nio-6060-exec-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+30-Jun-2022 11:16:58.403 SEVERE [http-nio-6060-exec-1] org.apache.catalina.core.StandardContext.startInternal Context [/jenkins] startup failed due to previous errors
+30-Jun-2022 11:17:06.552 INFO [http-nio-6060-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 11:17:06.558 SEVERE [http-nio-6060-exec-7] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+30-Jun-2022 11:17:06.559 SEVERE [http-nio-6060-exec-7] org.apache.catalina.core.StandardContext.startInternal Context [/jenkins] startup failed due to previous errors
+30-Jun-2022 11:17:10.864 INFO [http-nio-6060-exec-4] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jenkins]] after stop() had already been called. The second call will be ignored.
+30-Jun-2022 11:17:11.452 INFO [http-nio-6060-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jenkins]
+30-Jun-2022 11:17:44.361 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat8/webapps/jenkins.war]
+30-Jun-2022 11:17:44.370 SEVERE [localhost-startStop-2] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context [/jenkins]
+	java.util.zip.ZipException: error in opening zip file
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:228)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:157)
+		at java.util.jar.JarFile.<init>(JarFile.java:171)
+		at java.util.jar.JarFile.<init>(JarFile.java:108)
+		at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+		at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+		at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+		at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+		at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+		at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:128)
+		at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:615)
+		at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:752)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:182)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:17:44.374 SEVERE [localhost-startStop-2] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.WarResourceSet@c09bee4]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:139)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:713)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4880)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5018)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: java.util.zip.ZipException: error in opening zip file
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:142)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		... 16 more
+	Caused by: java.util.zip.ZipException: error in opening zip file
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:228)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:157)
+		at java.util.jar.JarFile.<init>(JarFile.java:171)
+		at java.util.jar.JarFile.<init>(JarFile.java:135)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:213)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:198)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:139)
+		... 17 more
+30-Jun-2022 11:17:44.375 SEVERE [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [/opt/tomcat8/webapps/jenkins.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:757)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.WarResourceSet@c09bee4]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:139)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:713)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4880)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5018)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: java.util.zip.ZipException: error in opening zip file
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:142)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		... 16 more
+	Caused by: java.util.zip.ZipException: error in opening zip file
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:228)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:157)
+		at java.util.jar.JarFile.<init>(JarFile.java:171)
+		at java.util.jar.JarFile.<init>(JarFile.java:135)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:213)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:198)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:139)
+		... 17 more
+30-Jun-2022 11:17:44.378 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat8/webapps/jenkins.war] has finished in [17] ms
+30-Jun-2022 11:18:44.390 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jenkins]
+30-Jun-2022 11:18:44.398 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat8/webapps/jenkins.war]
+30-Jun-2022 11:18:50.263 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 11:18:50.953 INFO [localhost-startStop-3] hudson.WebAppMain.contextInitialized Jenkins home directory: /root/.jenkins found at: $user.home/.jenkins
+30-Jun-2022 11:18:51.228 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat8/webapps/jenkins.war] has finished in [6,830] ms
+30-Jun-2022 11:18:52.972 INFO [pool-6-thread-2] jenkins.InitReactorRunner$1.onAttained Started initialization
+30-Jun-2022 11:18:52.991 INFO [pool-6-thread-1] jenkins.InitReactorRunner$1.onAttained Listed all plugins
+30-Jun-2022 11:18:54.649 INFO [pool-6-thread-2] jenkins.InitReactorRunner$1.onAttained Prepared all plugins
+30-Jun-2022 11:18:54.659 INFO [pool-6-thread-2] jenkins.InitReactorRunner$1.onAttained Started all plugins
+30-Jun-2022 11:18:54.705 INFO [pool-6-thread-1] jenkins.InitReactorRunner$1.onAttained Augmented all extensions
+30-Jun-2022 11:18:54.790 INFO [pool-6-thread-1] jenkins.InitReactorRunner$1.onAttained System config loaded
+30-Jun-2022 11:18:54.791 INFO [pool-6-thread-1] jenkins.InitReactorRunner$1.onAttained System config adapted
+30-Jun-2022 11:18:54.792 INFO [pool-6-thread-1] jenkins.InitReactorRunner$1.onAttained Loaded all jobs
+30-Jun-2022 11:18:56.855 INFO [pool-6-thread-1] jenkins.InitReactorRunner$1.onAttained Configuration for all jobs updated
+30-Jun-2022 11:18:56.877 INFO [Download metadata thread] hudson.model.AsyncPeriodicWork.lambda$doRun$1 Started Download metadata
+30-Jun-2022 11:18:56.900 INFO [Download metadata thread] hudson.util.Retrier.start Attempt #1 to do the action check updates server
+30-Jun-2022 11:18:57.357 INFO [http-nio-6060-exec-16] hudson.lifecycle.Lifecycle.onStatusUpdate Stopping Jenkins
+30-Jun-2022 11:18:57.375 INFO [http-nio-6060-exec-16] jenkins.model.Jenkins$16.onAttained Started termination
+30-Jun-2022 11:18:57.471 INFO [http-nio-6060-exec-16] jenkins.model.Jenkins$16.onAttained Completed termination
+30-Jun-2022 11:18:57.471 INFO [http-nio-6060-exec-16] jenkins.model.Jenkins._cleanUpDisconnectComputers Starting node disconnection
+30-Jun-2022 11:18:57.505 INFO [http-nio-6060-exec-16] jenkins.model.Jenkins._cleanUpShutdownPluginManager Stopping plugin manager
+30-Jun-2022 11:18:57.505 INFO [http-nio-6060-exec-16] jenkins.model.Jenkins._cleanUpPersistQueue Persisting build queue
+30-Jun-2022 11:18:57.532 INFO [http-nio-6060-exec-16] jenkins.model.Jenkins._cleanUpAwaitDisconnects Waiting for node disconnection completion
+30-Jun-2022 11:18:57.532 INFO [http-nio-6060-exec-16] hudson.lifecycle.Lifecycle.onStatusUpdate Jenkins stopped
+30-Jun-2022 11:18:57.532 INFO [http-nio-6060-exec-16] hudson.WebAppMain.contextDestroyed Shutting down a Jenkins instance that was still starting up
+	java.lang.Throwable: reason
+		at hudson.WebAppMain.contextDestroyed(WebAppMain.java:383)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4811)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5467)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1512)
+		at org.apache.catalina.manager.HTMLManagerServlet.undeploy(HTMLManagerServlet.java:657)
+		at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:212)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:203)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:662)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:378)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:56)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1691)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:18:57.533 SEVERE [Jenkins initialization thread] hudson.util.BootFailure.publish Failed to initialize Jenkins
+	hudson.util.HudsonFailedToLoad: java.lang.InterruptedException
+		at hudson.WebAppMain$3.run(WebAppMain.java:264)
+	Caused by: java.lang.InterruptedException
+		at java.lang.Object.wait(Native Method)
+		at java.lang.Object.wait(Object.java:502)
+		at org.jvnet.hudson.reactor.Reactor.execute(Reactor.java:289)
+		at jenkins.InitReactorRunner.run(InitReactorRunner.java:49)
+		at jenkins.model.Jenkins.executeReactor(Jenkins.java:1193)
+		at jenkins.model.Jenkins.<init>(Jenkins.java:983)
+		at hudson.model.Hudson.<init>(Hudson.java:86)
+		at hudson.model.Hudson.<init>(Hudson.java:82)
+		at hudson.WebAppMain$3.run(WebAppMain.java:247)
+30-Jun-2022 11:18:57.577 WARNING [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [Jenkins initialization thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+ groovy.lang.GroovyObjectSupport.<init>(GroovyObjectSupport.java:34)
+ groovy.lang.Binding.<init>(Binding.java:35)
+ jenkins.util.groovy.GroovyHookScript.<init>(GroovyHookScript.java:45)
+ hudson.util.BootFailure.publish(BootFailure.java:48)
+ hudson.WebAppMain$3.run(WebAppMain.java:264)
+30-Jun-2022 11:18:57.581 WARNING [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [Finalizing set up] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+ org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2359)
+ org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:881)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1384)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+ org.springframework.security.web.access.ExceptionTranslationFilter.<init>(ExceptionTranslationFilter.java:85)
+ org.springframework.security.web.access.ExceptionTranslationFilter.<init>(ExceptionTranslationFilter.java:98)
+ hudson.security.SecurityRealm.commonFilters(SecurityRealm.java:621)
+ hudson.security.SecurityRealm.createFilter(SecurityRealm.java:614)
+ hudson.security.HudsonFilter.reset(HudsonFilter.java:144)
+ jenkins.model.Jenkins.setSecurityRealm(Jenkins.java:2736)
+ jenkins.install.SetupWizard.init(SetupWizard.java:149)
+ jenkins.install.InstallState$InitialSecuritySetup.initializeState(InstallState.java:182)
+ jenkins.model.Jenkins.setInstallState(Jenkins.java:1131)
+ jenkins.install.InstallUtil.proceedToNextStateFrom(InstallUtil.java:98)
+ jenkins.install.InstallState$Unknown.initializeState(InstallState.java:88)
+ jenkins.model.Jenkins$15.run(Jenkins.java:3497)
+ org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:175)
+ org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:305)
+ jenkins.model.Jenkins$5.runTask(Jenkins.java:1158)
+ org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:222)
+ org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:121)
+ jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:18:57.582 WARNING [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [GroovyInitScript.init] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.ClassLoader.defineClass1(Native Method)
+ java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+ java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+ org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2478)
+ org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:881)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1384)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+ org.codehaus.groovy.runtime.DefaultGroovyMethods.<clinit>(DefaultGroovyMethods.java:242)
+ org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:113)
+ org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:90)
+ groovy.lang.GroovySystem.<clinit>(GroovySystem.java:36)
+ org.codehaus.groovy.runtime.InvokerHelper.<clinit>(InvokerHelper.java:82)
+ groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+ groovy.lang.GroovyObjectSupport.<init>(GroovyObjectSupport.java:34)
+ groovy.lang.Binding.<init>(Binding.java:35)
+ jenkins.util.groovy.GroovyHookScript.<init>(GroovyHookScript.java:45)
+ hudson.init.impl.GroovyInitScript.init(GroovyInitScript.java:42)
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.lang.reflect.Method.invoke(Method.java:498)
+ hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:109)
+ hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:185)
+ org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:305)
+ jenkins.model.Jenkins$5.runTask(Jenkins.java:1158)
+ org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:222)
+ org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:121)
+ jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:18:57.582 WARNING [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [Download metadata thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:203)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1567)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1495)
+ sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+ hudson.model.DownloadService.loadJSON(DownloadService.java:122)
+ hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:217)
+ hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:212)
+ hudson.PluginManager.checkUpdatesServer(PluginManager.java:1950)
+ hudson.PluginManager$$Lambda$161/261030317.call(Unknown Source)
+ hudson.util.Retrier.start(Retrier.java:62)
+ hudson.PluginManager.doCheckUpdatesServer(PluginManager.java:1921)
+ jenkins.DailyCheck.execute(DailyCheck.java:93)
+ hudson.model.AsyncPeriodicWork.lambda$doRun$1(AsyncPeriodicWork.java:102)
+ hudson.model.AsyncPeriodicWork$$Lambda$156/779638771.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:18:57.582 WARNING [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#1]] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+ java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:18:57.583 WARNING [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#2]] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+ java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:18:57.584 SEVERE [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2bd1c4d7]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:18:57.584 SEVERE [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2bd1c4d7]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:18:57.590 SEVERE [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@61af4b12]) and a value of type [hudson.BulkChange] (value [hudson.BulkChange@5a2e628a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:18:57.590 SEVERE [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2bd1c4d7]) and a value of type [jenkins.security.NonSerializableSecurityContext] (value [jenkins.security.NonSerializableSecurityContext@1f: Authentication: UsernamePasswordAuthenticationToken [Principal=SYSTEM, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[]]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:18:57.591 SEVERE [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2bd1c4d7]) and a value of type [jenkins.security.NonSerializableSecurityContext] (value [jenkins.security.NonSerializableSecurityContext@1f: Authentication: UsernamePasswordAuthenticationToken [Principal=SYSTEM, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[]]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:18:57.591 SEVERE [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2bd1c4d7]) and a value of type [jenkins.security.NonSerializableSecurityContext] (value [jenkins.security.NonSerializableSecurityContext@1f: Authentication: UsernamePasswordAuthenticationToken [Principal=SYSTEM, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[]]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:18:57.592 SEVERE [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2bd1c4d7]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:18:57.592 SEVERE [http-nio-6060-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2bd1c4d7]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:18:57.601 INFO [pool-6-thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [hudson.security.UnwrapSecurityExceptionFilter]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [hudson.security.UnwrapSecurityExceptionFilter]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1428)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1267)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+		at hudson.security.SecurityRealm.commonFilters(SecurityRealm.java:623)
+		at hudson.security.SecurityRealm.createFilter(SecurityRealm.java:614)
+		at hudson.security.HudsonFilter.reset(HudsonFilter.java:144)
+		at jenkins.model.Jenkins.setSecurityRealm(Jenkins.java:2736)
+		at jenkins.install.SetupWizard.init(SetupWizard.java:149)
+		at jenkins.install.InstallState$InitialSecuritySetup.initializeState(InstallState.java:182)
+		at jenkins.model.Jenkins.setInstallState(Jenkins.java:1131)
+		at jenkins.install.InstallUtil.proceedToNextStateFrom(InstallUtil.java:98)
+		at jenkins.install.InstallState$Unknown.initializeState(InstallState.java:88)
+		at jenkins.model.Jenkins$15.run(Jenkins.java:3497)
+		at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:175)
+		at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:305)
+		at jenkins.model.Jenkins$5.runTask(Jenkins.java:1158)
+		at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:222)
+		at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:121)
+		at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:18:57.601 INFO [pool-6-thread-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.codehaus.groovy.runtime.IOGroovyMethods]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.codehaus.groovy.runtime.IOGroovyMethods]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1428)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1267)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+		at org.codehaus.groovy.runtime.DefaultGroovyMethods.<clinit>(DefaultGroovyMethods.java:242)
+		at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:113)
+		at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:90)
+		at groovy.lang.GroovySystem.<clinit>(GroovySystem.java:36)
+		at org.codehaus.groovy.runtime.InvokerHelper.<clinit>(InvokerHelper.java:82)
+		at groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+		at groovy.lang.GroovyObjectSupport.<init>(GroovyObjectSupport.java:34)
+		at groovy.lang.Binding.<init>(Binding.java:35)
+		at jenkins.util.groovy.GroovyHookScript.<init>(GroovyHookScript.java:45)
+		at hudson.init.impl.GroovyInitScript.init(GroovyInitScript.java:42)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:109)
+		at hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:185)
+		at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:305)
+		at jenkins.model.Jenkins$5.runTask(Jenkins.java:1158)
+		at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:222)
+		at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:121)
+		at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:18:58.231 INFO [http-nio-6060-exec-16] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jenkins]
+30-Jun-2022 11:19:02.584 INFO [Download metadata thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [net.sf.json.AbstractJSON$WritingVisitor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [net.sf.json.AbstractJSON$WritingVisitor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1428)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1267)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+		at hudson.model.UpdateSite.updateData(UpdateSite.java:225)
+		at hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:217)
+		at hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:212)
+		at hudson.PluginManager.checkUpdatesServer(PluginManager.java:1950)
+		at hudson.util.Retrier.start(Retrier.java:62)
+		at hudson.PluginManager.doCheckUpdatesServer(PluginManager.java:1921)
+		at jenkins.DailyCheck.execute(DailyCheck.java:93)
+		at hudson.model.AsyncPeriodicWork.lambda$doRun$1(AsyncPeriodicWork.java:102)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:19:41.249 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat8/webapps/jenkins.war]
+30-Jun-2022 11:19:41.255 SEVERE [localhost-startStop-4] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context [/jenkins]
+	java.util.zip.ZipException: error in opening zip file
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:228)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:157)
+		at java.util.jar.JarFile.<init>(JarFile.java:171)
+		at java.util.jar.JarFile.<init>(JarFile.java:108)
+		at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+		at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+		at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+		at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+		at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+		at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:128)
+		at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:615)
+		at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:752)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:182)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:19:41.258 SEVERE [localhost-startStop-4] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.WarResourceSet@41e69b9a]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:139)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:713)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4880)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5018)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: java.util.zip.ZipException: error in opening zip file
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:142)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		... 16 more
+	Caused by: java.util.zip.ZipException: error in opening zip file
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:228)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:157)
+		at java.util.jar.JarFile.<init>(JarFile.java:171)
+		at java.util.jar.JarFile.<init>(JarFile.java:135)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:213)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:198)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:139)
+		... 17 more
+30-Jun-2022 11:19:41.258 SEVERE [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [/opt/tomcat8/webapps/jenkins.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:757)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.WarResourceSet@41e69b9a]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:139)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:713)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4880)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5018)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: java.util.zip.ZipException: error in opening zip file
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:142)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		... 16 more
+	Caused by: java.util.zip.ZipException: error in opening zip file
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:228)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:157)
+		at java.util.jar.JarFile.<init>(JarFile.java:171)
+		at java.util.jar.JarFile.<init>(JarFile.java:135)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:213)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:198)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:139)
+		... 17 more
+30-Jun-2022 11:19:41.259 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat8/webapps/jenkins.war] has finished in [10] ms
+30-Jun-2022 11:20:11.268 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jenkins]
+30-Jun-2022 11:20:11.277 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat8/webapps/jenkins.war]
+30-Jun-2022 11:20:16.931 INFO [localhost-startStop-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2022 11:20:17.468 INFO [localhost-startStop-5] hudson.WebAppMain.contextInitialized Jenkins home directory: /root/.jenkins found at: $user.home/.jenkins
+30-Jun-2022 11:20:17.585 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat8/webapps/jenkins.war] has finished in [6,308] ms
+30-Jun-2022 11:20:22.798 INFO [pool-16-thread-2] jenkins.InitReactorRunner$1.onAttained Started initialization
+30-Jun-2022 11:20:22.811 INFO [pool-16-thread-2] jenkins.InitReactorRunner$1.onAttained Listed all plugins
+30-Jun-2022 11:20:24.501 INFO [pool-16-thread-2] jenkins.InitReactorRunner$1.onAttained Prepared all plugins
+30-Jun-2022 11:20:24.506 INFO [pool-16-thread-2] jenkins.InitReactorRunner$1.onAttained Started all plugins
+30-Jun-2022 11:20:24.518 INFO [pool-16-thread-1] jenkins.InitReactorRunner$1.onAttained Augmented all extensions
+30-Jun-2022 11:20:24.983 INFO [pool-16-thread-2] jenkins.InitReactorRunner$1.onAttained System config loaded
+30-Jun-2022 11:20:24.983 INFO [pool-16-thread-2] jenkins.InitReactorRunner$1.onAttained System config adapted
+30-Jun-2022 11:20:24.983 INFO [pool-16-thread-2] jenkins.InitReactorRunner$1.onAttained Loaded all jobs
+30-Jun-2022 11:20:24.984 INFO [pool-16-thread-2] jenkins.InitReactorRunner$1.onAttained Configuration for all jobs updated
+30-Jun-2022 11:20:25.656 INFO [Download metadata thread] hudson.model.AsyncPeriodicWork.lambda$doRun$1 Started Download metadata
+30-Jun-2022 11:20:25.668 INFO [Download metadata thread] hudson.util.Retrier.start Attempt #1 to do the action check updates server
+30-Jun-2022 11:20:25.683 INFO [pool-16-thread-1] jenkins.install.SetupWizard.init 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+9d7648af96a5418da5bfddbaebd3dc62
+
+This may also be found at: /root/.jenkins/secrets/initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+30-Jun-2022 11:20:28.410 INFO [http-nio-6060-exec-18] hudson.lifecycle.Lifecycle.onStatusUpdate Stopping Jenkins
+30-Jun-2022 11:20:28.424 INFO [http-nio-6060-exec-18] jenkins.model.Jenkins$16.onAttained Started termination
+30-Jun-2022 11:20:28.440 INFO [http-nio-6060-exec-18] jenkins.model.Jenkins$16.onAttained Completed termination
+30-Jun-2022 11:20:28.440 INFO [http-nio-6060-exec-18] jenkins.model.Jenkins._cleanUpDisconnectComputers Starting node disconnection
+30-Jun-2022 11:20:28.451 INFO [http-nio-6060-exec-18] jenkins.model.Jenkins._cleanUpShutdownPluginManager Stopping plugin manager
+30-Jun-2022 11:20:28.452 INFO [http-nio-6060-exec-18] jenkins.model.Jenkins._cleanUpPersistQueue Persisting build queue
+30-Jun-2022 11:20:28.457 INFO [http-nio-6060-exec-18] jenkins.model.Jenkins._cleanUpAwaitDisconnects Waiting for node disconnection completion
+30-Jun-2022 11:20:28.458 INFO [http-nio-6060-exec-18] hudson.lifecycle.Lifecycle.onStatusUpdate Jenkins stopped
+30-Jun-2022 11:20:28.458 INFO [http-nio-6060-exec-18] hudson.WebAppMain.contextDestroyed Shutting down a Jenkins instance that was still starting up
+	java.lang.Throwable: reason
+		at hudson.WebAppMain.contextDestroyed(WebAppMain.java:383)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4811)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5467)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1512)
+		at org.apache.catalina.manager.HTMLManagerServlet.undeploy(HTMLManagerServlet.java:657)
+		at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:212)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:203)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:662)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:378)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:56)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1691)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:20:28.459 SEVERE [Jenkins initialization thread] hudson.util.BootFailure.publish Failed to initialize Jenkins
+	hudson.util.HudsonFailedToLoad: java.lang.InterruptedException
+		at hudson.WebAppMain$3.run(WebAppMain.java:264)
+	Caused by: java.lang.InterruptedException
+		at java.lang.Object.wait(Native Method)
+		at java.lang.Object.wait(Object.java:502)
+		at org.jvnet.hudson.reactor.Reactor.execute(Reactor.java:289)
+		at jenkins.InitReactorRunner.run(InitReactorRunner.java:49)
+		at jenkins.model.Jenkins.executeReactor(Jenkins.java:1193)
+		at jenkins.model.Jenkins.<init>(Jenkins.java:983)
+		at hudson.model.Hudson.<init>(Hudson.java:86)
+		at hudson.model.Hudson.<init>(Hudson.java:82)
+		at hudson.WebAppMain$3.run(WebAppMain.java:247)
+30-Jun-2022 11:20:28.471 WARNING [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [Jenkins initialization thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ org.codehaus.groovy.util.SingleKeyHashMap.getOrPut(SingleKeyHashMap.java:59)
+ groovy.lang.MetaClassImpl$Index.getNotNull(MetaClassImpl.java:3902)
+ groovy.lang.MetaClassImpl.addMetaBeanProperty(MetaClassImpl.java:2565)
+ groovy.lang.MetaClassImpl.applyPropertyDescriptors(MetaClassImpl.java:2549)
+ groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2242)
+ groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3338)
+ groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3303)
+ org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:289)
+ org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:331)
+ org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:277)
+ groovy.lang.MetaClassImpl.searchInterfacesForMetaProperty(MetaClassImpl.java:3555)
+ groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3544)
+ groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3540)
+ groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:855)
+ groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2751)
+ groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3785)
+ groovy.lang.GroovyObjectSupport.setProperty(GroovyObjectSupport.java:42)
+ groovy.lang.Binding.setProperty(Binding.java:115)
+ jenkins.util.groovy.GroovyHookScript.bind(GroovyHookScript.java:67)
+ hudson.util.BootFailure.publish(BootFailure.java:49)
+ hudson.WebAppMain$3.run(WebAppMain.java:264)
+30-Jun-2022 11:20:28.472 WARNING [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [Finalizing set up] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+ java.net.SocketInputStream.read(SocketInputStream.java:171)
+ java.net.SocketInputStream.read(SocketInputStream.java:141)
+ sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:464)
+ sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:237)
+ sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:190)
+ sun.security.ssl.SSLTransport.decode(SSLTransport.java:109)
+ sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1395)
+ sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1363)
+ sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:73)
+ sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:957)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+ sun.net.www.MeteredStream.read(MeteredStream.java:134)
+ java.io.FilterInputStream.read(FilterInputStream.java:133)
+ sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3451)
+ sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+ sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+ sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+ java.io.InputStreamReader.read(InputStreamReader.java:184)
+ java.io.Reader.read(Reader.java:140)
+ org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1432)
+ org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1411)
+ org.apache.commons.io.IOUtils.copy(IOUtils.java:1208)
+ org.apache.commons.io.IOUtils.copy(IOUtils.java:1022)
+ org.apache.commons.io.IOUtils.toString(IOUtils.java:2839)
+ hudson.model.DownloadService.loadJSON(DownloadService.java:123)
+ hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:217)
+ hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:212)
+ hudson.model.UpdateCenter.updateDefaultSite(UpdateCenter.java:2667)
+ jenkins.install.SetupWizard.init(SetupWizard.java:206)
+ jenkins.install.InstallState$InitialSecuritySetup.initializeState(InstallState.java:182)
+ jenkins.model.Jenkins.setInstallState(Jenkins.java:1131)
+ jenkins.install.InstallUtil.proceedToNextStateFrom(InstallUtil.java:98)
+ jenkins.install.InstallState$Unknown.initializeState(InstallState.java:88)
+ jenkins.model.Jenkins$15.run(Jenkins.java:3497)
+ org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:175)
+ org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:305)
+ jenkins.model.Jenkins$5.runTask(Jenkins.java:1158)
+ org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:222)
+ org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:121)
+ jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:20:28.477 WARNING [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [Download metadata thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+ java.net.SocketInputStream.read(SocketInputStream.java:171)
+ java.net.SocketInputStream.read(SocketInputStream.java:141)
+ sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:464)
+ sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:237)
+ sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:190)
+ sun.security.ssl.SSLTransport.decode(SSLTransport.java:109)
+ sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1395)
+ sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1363)
+ sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:73)
+ sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:957)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+ sun.net.www.MeteredStream.read(MeteredStream.java:134)
+ java.io.FilterInputStream.read(FilterInputStream.java:133)
+ sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3451)
+ sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+ sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+ sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+ java.io.InputStreamReader.read(InputStreamReader.java:184)
+ java.io.Reader.read(Reader.java:140)
+ org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1432)
+ org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1411)
+ org.apache.commons.io.IOUtils.copy(IOUtils.java:1208)
+ org.apache.commons.io.IOUtils.copy(IOUtils.java:1022)
+ org.apache.commons.io.IOUtils.toString(IOUtils.java:2839)
+ hudson.model.DownloadService.loadJSON(DownloadService.java:123)
+ hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:217)
+ hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:212)
+ hudson.PluginManager.checkUpdatesServer(PluginManager.java:1950)
+ hudson.PluginManager$$Lambda$302/334703655.call(Unknown Source)
+ hudson.util.Retrier.start(Retrier.java:62)
+ hudson.PluginManager.doCheckUpdatesServer(PluginManager.java:1921)
+ jenkins.DailyCheck.execute(DailyCheck.java:93)
+ hudson.model.AsyncPeriodicWork.lambda$doRun$1(AsyncPeriodicWork.java:102)
+ hudson.model.AsyncPeriodicWork$$Lambda$300/2125702329.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:20:28.478 WARNING [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#1]] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+ java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:20:28.478 WARNING [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#2]] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+ java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:20:28.479 WARNING [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#3]] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+ java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:20:28.480 SEVERE [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7e453dcf]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:20:28.481 SEVERE [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7e453dcf]) and a value of type [jenkins.security.NonSerializableSecurityContext] (value [jenkins.security.NonSerializableSecurityContext@1f: Authentication: UsernamePasswordAuthenticationToken [Principal=SYSTEM, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[]]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:20:28.482 SEVERE [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7e453dcf]) and a value of type [jenkins.security.NonSerializableSecurityContext] (value [jenkins.security.NonSerializableSecurityContext@1f: Authentication: UsernamePasswordAuthenticationToken [Principal=SYSTEM, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[]]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:20:28.482 SEVERE [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7e453dcf]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:20:28.482 SEVERE [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7e453dcf]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:20:28.483 SEVERE [http-nio-6060-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7e453dcf]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2022 11:20:29.072 INFO [http-nio-6060-exec-18] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jenkins]
+30-Jun-2022 11:20:29.677 INFO [pool-16-thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [net.sf.json.AbstractJSON$WritingVisitor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [net.sf.json.AbstractJSON$WritingVisitor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1428)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1267)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+		at hudson.model.UpdateSite.updateData(UpdateSite.java:225)
+		at hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:217)
+		at hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:212)
+		at hudson.model.UpdateCenter.updateDefaultSite(UpdateCenter.java:2667)
+		at jenkins.install.SetupWizard.init(SetupWizard.java:206)
+		at jenkins.install.InstallState$InitialSecuritySetup.initializeState(InstallState.java:182)
+		at jenkins.model.Jenkins.setInstallState(Jenkins.java:1131)
+		at jenkins.install.InstallUtil.proceedToNextStateFrom(InstallUtil.java:98)
+		at jenkins.install.InstallState$Unknown.initializeState(InstallState.java:88)
+		at jenkins.model.Jenkins$15.run(Jenkins.java:3497)
+		at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:175)
+		at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:305)
+		at jenkins.model.Jenkins$5.runTask(Jenkins.java:1158)
+		at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:222)
+		at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:121)
+		at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:20:30.140 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [com.sun.jna.Memory$LinkedReference]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com.sun.jna.Memory$LinkedReference]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1428)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1267)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+		at com.sun.jna.Memory.disposeAll(Memory.java:140)
+		at com.sun.jna.Native.dispose(Native.java:276)
+		at com.sun.jna.Native.access$100(Native.java:112)
+		at com.sun.jna.Native$2.finalize(Native.java:265)
+		at java.lang.System$2.invokeFinalize(System.java:1273)
+		at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:102)
+		at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+		at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:217)
+30-Jun-2022 11:20:30.384 INFO [Download metadata thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [net.sf.json.AbstractJSON$WritingVisitor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [net.sf.json.AbstractJSON$WritingVisitor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1428)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1267)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+		at hudson.model.UpdateSite.updateData(UpdateSite.java:225)
+		at hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:217)
+		at hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:212)
+		at hudson.PluginManager.checkUpdatesServer(PluginManager.java:1950)
+		at hudson.util.Retrier.start(Retrier.java:62)
+		at hudson.PluginManager.doCheckUpdatesServer(PluginManager.java:1921)
+		at jenkins.DailyCheck.execute(DailyCheck.java:93)
+		at hudson.model.AsyncPeriodicWork.lambda$doRun$1(AsyncPeriodicWork.java:102)
+		at java.lang.Thread.run(Thread.java:748)
+30-Jun-2022 11:21:47.613 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat8/webapps/.git]
+30-Jun-2022 11:21:47.633 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat8/webapps/.git] has finished in [20] ms
